@@ -1,0 +1,58 @@
+img {
+    width: 15vw;
+    border: #3D4C53 4px solid;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+    .top{
+        display: flex;
+        justify-content: space-around;
+
+        .result{
+            text-align: center;
+        }
+    }
+
+    .content{
+        width: 50vw;
+        margin: 0 auto;
+        .cpu{
+            width: 16vw;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            .hand{
+                margin: 0 auto;
+                
+            }
+        }
+        .myself{
+            .hand{
+                display: flex;
+                justify-content: space-evenly;
+
+                .paper{
+                    text-align: center;
+                    img{
+                        width: 12.5vw;
+                    }
+                }
+                .rock{
+                    text-align: center;
+                    img{
+                        width: 12.5vw;
+                    }
+                }
+                .scissor{
+                    text-align: center;
+                    img{
+                        width: 12.5vw;
+                    }
+                }
+            }
+        }
+        
+    }
+}

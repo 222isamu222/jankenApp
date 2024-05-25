@@ -1,0 +1,51 @@
+img {
+  width: 15vw;
+  border: #3D4C53 4px solid;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.container .top {
+  display: flex;
+  justify-content: space-around;
+}
+.container .top .result {
+  text-align: center;
+}
+.container .content {
+  width: 50vw;
+  margin: 0 auto;
+}
+.container .content .cpu {
+  width: 16vw;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.container .content .cpu .hand {
+  margin: 0 auto;
+}
+.container .content .myself .hand {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .content .myself .hand .paper {
+  text-align: center;
+}
+.container .content .myself .hand .paper img {
+  width: 12.5vw;
+}
+.container .content .myself .hand .rock {
+  text-align: center;
+}
+.container .content .myself .hand .rock img {
+  width: 12.5vw;
+}
+.container .content .myself .hand .scissor {
+  text-align: center;
+}
+.container .content .myself .hand .scissor img {
+  width: 12.5vw;
+}/*# sourceMappingURL=style.css.map */
